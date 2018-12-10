@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Megafon</title>
+    <!--Including styles-->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+    <!--End of including styles-->
+</head>
+<body>
+<div class="personal-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="left_sidebar">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="assets/img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="add_member_block">
+                        <button class="add_member">Добавить сотрудника</button>
+                    </div>
+                    <div class="menu">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="first_lock">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="false">
+                                            Администрация
+                                        </button>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Бухгалтерия
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <ul class="nav nav-tabs" id="members" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="first-member-tab" data-toggle="tab" href="#first-member" role="tab" aria-controls="first-member" aria-selected="true">
+                                                    <span class="name">Шишкин Андрей</span>
+                                                    <span class="role">Главный бухгалтер</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="second-member-tab" data-toggle="tab" href="#second-member" role="tab" aria-controls="second-member" aria-selected="false">
+                                                    <span class="name">Шишкин Андрей</span>
+                                                    <span class="role">Бухгалтер</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="second_lock">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="false">
+                                            Кадровый отдел
+                                        </button>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="third_lock">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="false">
+                                            Менеджеры
+                                        </button>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="middle_content">
+                    <div class="header_tab">
+                        <ul class="nav nav-tabs" id="infoMember1" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link" id="vacation-tab-1" data-toggle="tab" href="#vacation-1" role="tab" aria-controls="vacation-1" aria-selected="true">
+                                    <span>Отпуск</span>
+                                    <a href="#" class="close">
+                                        <img src="assets/img/close-icon.svg" alt="close-icon">
+                                    </a>
+                                </a>
+                            </li>
+                            <li class="nav-item active-tab">
+                                <a class="nav-link active" id="workers-tab-1" data-toggle="tab" href="#workers-1" role="tab" aria-controls="workers-1" aria-selected="false">
+                                    <span>Сотрудники</span>
+                                    <a href="#" class="close">
+                                        <img src="assets/img/close-icon.svg" alt="close-icon">
+                                    </a>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="members-content">
+                        <div class="tab-pane fade show active" id="first-member" role="tabpanel" aria-labelledby="first-member-tab">
+                            <div class="tab-content" id="memberContent1">
+                                <div class="middle_tab">
+                                    <div class="tab-pane fade show active" id="workers-1" role="tabpanel" aria-labelledby="workers-tab-1">
+                                        <div class="info-block">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 col-xl-4">
+                                                    <div class="left_side">
+                                                        <img src="assets/img/person-img.svg" alt="person-img" class="person-img">
+                                                        <div class="private-info">
+                                                            <div class="private-inner">
+                                                                <span class="private">Снилс</span>
+                                                                <span class="private-value">124-542-222-00</span>
+                                                            </div>
+                                                            <div class="private-inner">
+                                                                <span class="private">Инн</span>
+                                                                <span class="private-value">42341522228</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="edit_button_block">
+                                                            <button class="edit_button">Редактировать</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-8 col-xl-7">
+                                                    <div class="right_side">
+                                                        <h3>Шишкин Адрей</h3>
+                                                        <h4>Главный бухгалтер</h4>
+                                                        <ul class="details">
+                                                            <li>
+                                                                <div class="inside_detail">
+                                                                    <p class="role">Принят</p>
+                                                                    <p class="value">1 апреля 2011</p>
+                                                                </div>
+                                                                <a href="#" class="edit">
+                                                                    <img src="assets/img/edit-icon.svg" alt="edit-icon">
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <div class="inside_detail">
+                                                                    <p class="role">День и место рождения</p>
+                                                                    <p class="value">30 августа, 1970 года, г. Грозном Чеченской республики</p>
+                                                                </div>
+                                                                <a href="#" class="edit">
+                                                                    <img src="assets/img/edit-icon.svg" alt="edit-icon">
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <div class="inside_detail">
+                                                                    <p class="role">Адрес проживания</p>
+                                                                    <p class="value">Москва</p>
+                                                                </div>
+                                                                <a href="#" class="edit">
+                                                                    <img src="assets/img/edit-icon.svg" alt="edit-icon">
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <div class="inside_detail">
+                                                                    <p class="role">Семейное положение</p>
+                                                                    <p class="value">Замужем</p>
+                                                                </div>
+                                                                <a href="#" class="edit">
+                                                                    <img src="assets/img/edit-icon.svg" alt="edit-icon">
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="actions-menu">
+                                                            <a class="action" href="#">
+                                                                <img src="assets/img/action1.svg" alt="action">
+                                                                <span>Оформить</span>
+                                                            </a>
+                                                            <a class="action" href="#">
+                                                                <img src="assets/img/action2.svg" alt="action">
+                                                                <span>Печать</span>
+                                                            </a>
+                                                            <a class="action" href="#">
+                                                                <img src="assets/img/action3.svg" alt="action">
+                                                                <span>Уволить</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="second-member" role="tabpanel" aria-labelledby="second-member-tab">
+                            <div class="tab-content" id="memberContent2">
+                                <div class="middle_tab">
+                                    <div class="tab-pane fade show active" id="workers-2" role="tabpanel" aria-labelledby="workers-tab-2">
+                                        <div class="info-block">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 col-xl-4">
+                                                    <div class="left_side">
+                                                        <img src="assets/img/person-img.svg" alt="person-img" class="person-img">
+                                                        <div class="private-info">
+                                                            <div class="private-inner">
+                                                                <span class="private">Снилс</span>
+                                                                <span class="private-value">124-542-222-00</span>
+                                                            </div>
+                                                            <div class="private-inner">
+                                                                <span class="private">Инн</span>
+                                                                <span class="private-value">42341522228</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="edit_button_block">
+                                                            <button class="edit_button">Редактировать</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-8 col-xl-7">
+                                                    <div class="right_side">
+                                                        <h3>Владимир Путин</h3>
+                                                        <h4>Предприниматель</h4>
+                                                        <ul class="details">
+                                                            <li>
+                                                                <div class="inside_detail">
+                                                                    <p class="role">Принят</p>
+                                                                    <p class="value">1 апреля 2011</p>
+                                                                </div>
+                                                                <a href="#" class="edit">
+                                                                    <img src="assets/img/edit-icon.svg" alt="edit-icon">
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <div class="inside_detail">
+                                                                    <p class="role">День и место рождения</p>
+                                                                    <p class="value">30 августа, 1970 года, г. Грозном Чеченской республики</p>
+                                                                </div>
+                                                                <a href="#" class="edit">
+                                                                    <img src="assets/img/edit-icon.svg" alt="edit-icon">
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <div class="inside_detail">
+                                                                    <p class="role">Адрес проживания</p>
+                                                                    <p class="value">Москва</p>
+                                                                </div>
+                                                                <a href="#" class="edit">
+                                                                    <img src="assets/img/edit-icon.svg" alt="edit-icon">
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <div class="inside_detail">
+                                                                    <p class="role">Семейное положение</p>
+                                                                    <p class="value">Замужем</p>
+                                                                </div>
+                                                                <a href="#" class="edit">
+                                                                    <img src="assets/img/edit-icon.svg" alt="edit-icon">
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="actions-menu">
+                                                            <a class="action" href="#">
+                                                                <img src="assets/img/action1.svg" alt="action">
+                                                                <span>Оформить</span>
+                                                            </a>
+                                                            <a class="action" href="#">
+                                                                <img src="assets/img/action2.svg" alt="action">
+                                                                <span>Печать</span>
+                                                            </a>
+                                                            <a class="action" href="#">
+                                                                <img src="assets/img/action3.svg" alt="action">
+                                                                <span>Уволить</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_content">
+                    <div class="information">
+                        <img src="assets/img/footer-person-img.svg" alt="person-icon">
+                        <div class="text-information">
+                            <span class="name">Алексей</span>
+                            <span class="role">Генеральный директор</span>
+                        </div>
+                    </div>
+                    <a href="#" class="exit">
+                        <img src="assets/img/exit-icon.svg" alt="exit-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Including scripts-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="assets/bootstrap/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+<!--End of including scripts-->
+</body>
+</html>

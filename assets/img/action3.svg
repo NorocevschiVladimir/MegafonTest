@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1cb85a;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #1cb85a;
+      }
+    </style>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(-1447 -912)">
+    <g id="Group_2" data-name="Group 2" transform="translate(622.415 835.438)">
+      <path id="Path_3" data-name="Path 3" class="cls-1" d="M7.105.122,0,8.035" transform="translate(833.231 87.44)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="M.293.269,7.991,8" transform="translate(832.5 87.478)"/>
+    </g>
+    <path id="Payment" class="cls-2" d="M6,7a1,1,0,0,1,.995-1h17.01a2.289,2.289,0,0,1,1.6.787l4.783,6.192A3.392,3.392,0,0,1,31,14.762V34a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1ZM8,8V33H29V14.762a1.683,1.683,0,0,0-.191-.56L24.026,8.01C24.069,8.066,8,8,8,8Z" transform="translate(1441 906)"/>
+  </g>
+</svg>

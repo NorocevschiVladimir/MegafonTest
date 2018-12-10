@@ -1,0 +1,18 @@
+<svg id="list" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1cb85a;
+      }
+    </style>
+  </defs>
+  <g id="_01-Card-Inner-1024px" data-name="01-Card-Inner-1024px" transform="translate(-710 -1067)">
+    <g id="_03-Block" data-name="03-Block" transform="translate(192 689)">
+      <g id="Add" transform="translate(512 372)">
+        <g id="Icons_-2.-Cards-_-2.-Payment" data-name="Icons/-2.-Cards-/-2.-Payment">
+          <path id="Payment" class="cls-1" d="M6,7a1,1,0,0,1,.995-1h17.01a2.289,2.289,0,0,1,1.6.787l4.783,6.192A3.392,3.392,0,0,1,31,14.762V34a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1ZM8,8V33H29V14.762a1.683,1.683,0,0,0-.191-.56L24.026,8.01C24.069,8.066,8,8,8,8Zm3,16h8v2H11Zm0-5H25v2H11Zm0-5H21v2H11ZM22.13,26.792l1.35.894,2.24-2.32,1.5,1.33-3.5,3.62-2.809-1.948Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
